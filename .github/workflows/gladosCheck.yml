@@ -8,7 +8,8 @@ on:
       - 'README.md'
       - 'imgs/'
   schedule:
-    - cron: '0 4,10 * * *'
+    # GitHub Actions 使用 UTC；北京时间 09:00 和 14:00 对应 UTC 01:00 和 06:00
+    - cron: '0 1,6 * * *'
   watch:
     types: started
 
