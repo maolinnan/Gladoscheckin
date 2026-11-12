@@ -38,10 +38,10 @@ CHECKIN_DATA = {"token": "glados.cloud"}
 
 # Request Headers
 HEADERS_TEMPLATE = {
-    'referer': 'https://glados.cloud/console/checkin',
-    'origin': "https://glados.cloud",
-    'user-agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
-    'content-type': 'application/json;charset=UTF-8'
+    'referer': 'https://glados.network/console/checkin',
+    'origin': "https://glados.network",
+    'user-agent': "Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+    'content-type': 'application/json'
 }
 
 # Exchange Plan Points
